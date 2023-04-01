@@ -1,0 +1,13 @@
+.Logo {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+.Company-Name {
+    font-family: 'Alkatra', cursive;
+}
+
+.nav-2 {
+    background-color: #333;
+}

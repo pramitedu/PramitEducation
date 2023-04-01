@@ -1,0 +1,22 @@
+.course-img {
+    width: 20rem;
+    height: 15rem;
+}
+
+@media (max-width:360px) {
+    .contain {
+        flex-direction: column;
+    }
+}
+
+
+
+
+/* .course-Name {
+    padding-top: 1rem;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+} */
