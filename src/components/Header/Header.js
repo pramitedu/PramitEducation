@@ -42,12 +42,10 @@ const Header = () => {
 
             <nav className="navbar navbar-expand-lg nav-2">
                 <div className="container-fluid">
-                    <button className="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon" />
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent ">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
-                            <li className="nav-item dropdown">
+                   
+                    
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 screen-toggle">
+                            <li className="nav-item dropdown small-s">
                                 <Link className="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Courses
                                 </Link>
@@ -63,18 +61,18 @@ const Header = () => {
 
                                 </ul>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link text-white" aria-current="page" to="about">About us</Link>
+                            <li className="nav-item small-s">
+                                <Link className="nav-link text-white" aria-current="page" to="/about">About us</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link text-white" to="contact">Contact us</Link>
+                            <li className="nav-item small-s">
+                                <Link className="nav-link text-white" to="/contact">Contact us</Link>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item small-s">
                                 <Link className="nav-link text-white" to="">More</Link>
                             </li>
                         </ul>
                     </div>
-                </div>
+                
             </nav>
 
         </>

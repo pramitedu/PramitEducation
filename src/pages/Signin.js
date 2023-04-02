@@ -71,7 +71,7 @@ const Signin = () => {
                         </div>
                         <button type="submit" className="btn signinbutton">Sign In</button>
                         <span className='ms-4 new-user'>New User </span>
-                        <Link to='/signup'>Sign Up</Link>
+                        <Link to='/auth/signup'>Sign Up</Link>
                         <OAuth />
 
                     </form>

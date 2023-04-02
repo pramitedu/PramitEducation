@@ -26,7 +26,7 @@ const Contact = () => {
     return (
         <>
             <Header />
-            <div className='c'>
+            <div className='c mt-4'>
                 <div className="c-wrapper">
                     <div className="c-right">
                         <p className="c-desc">

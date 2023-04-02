@@ -34,18 +34,19 @@ const OAuth = () => {
     return (
         <div>
             <h3 className='mt-4 text-center'>Sign {location.pathname === "/signup" ? 'Up' : 'in'} With &nbsp;
-                <button onClick={onGoogleAuthHandler} style={{
+                <span onClick={onGoogleAuthHandler} style={{
                     outline: "none",
                     backgroundColor: 'transparent',
                     border: 'none',
-                    borderBottom: "1px solid black"
+                    borderBottom: "1px solid black",
+                    cursor:'pointer'
                 }}>
 
                     <span>
                         <FcGoogle />
                         oogle
                     </span>
-                </button>
+                </span>
 
             </h3>
         </div>

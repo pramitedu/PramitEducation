@@ -14,16 +14,16 @@
     }
 
     .course-language {
-        font-size: 0.6rem;
+        font-size: 1rem;
     }
 
     .course-des {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
     .course-img {
-        width: 15rem;
-        height: 6rem;
+        width: 20rem;
+        height: 7rem;
         border-radius: 2rem;
     }
 
@@ -32,7 +32,7 @@
         flex-direction: column;
         align-items: center;
 
-        width: 21rem;
+        width: 28.5rem;
         height: 25rem;
     }
 
@@ -46,14 +46,3 @@
     }
 }
 
-
-
-
-/* .course-Name {
-    padding-top: 1rem;
-    display: block;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 500;
-    font-family: 'Courier New', Courier, monospace;
-} */
