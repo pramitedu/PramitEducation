@@ -46,6 +46,9 @@ const Header = () => {
                     
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 screen-toggle">
                             <li className="nav-item dropdown small-s">
+                            <li className="nav-item small-s">
+                                <Link className="nav-link text-white" aria-current="page" to="/">Home</Link>
+                            </li>
                                 <Link className="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Courses
                                 </Link>
