@@ -31,12 +31,7 @@ const Footer = () => {
                             Privacy Policy
                         </Link>
                     </p>
-                    <p className="me-4" title="Linkedin">
-                        <Link to="" className='FooterLinks'>
-                            Terms and Conditions
-                        </Link>
-                    </p>
-
+                    
                 </div>
                 <div className="d-flex flex-row p-2">
 
