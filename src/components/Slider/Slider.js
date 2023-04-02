@@ -12,8 +12,8 @@ import "swiper/css/bundle";
 SwiperCore.use([Autoplay, Navigation, Pagination]);
 const ImageUrl = [
     require("../../assets/Slider1.png"),
-    "https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0%2C214%2C3008%2C1579&wid=1200&hei=630&scl=2.506666666666667",
-    "https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg"
+    require("../../assets/Slider2.jpeg"),
+    require("../../assets/Slider3.png"),
 ]
 
 const Slider = () => {
