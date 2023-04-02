@@ -12,22 +12,19 @@ const OAuth = () => {
     const navigate = useNavigate()
     const location = useLocation()
 
-    const onGoogleAuthHandler = () => {
+    const onGoogleAuthHandler = async() => {
+        try {
+            const auth = getAuth()
+            const provider = new GoogleAuthProvider()
+            const result = await signInWithPopup(auth, provider)
+            const user = result.user
+            
+            navigate('/')
+            toast.success("Login Successfully");
+        } catch (error) {
+            toast.error('Problem with Google Auth')
 
-        const auth = getAuth();
-        const provider = new GoogleAuthProvider()
-        signInWithPopup(auth, provider)
-            .then((result) => {
-                const credential = GoogleAuthProvider.credentialFromResult(result);
-
-                const user = result.user;
-                navigate('/')
-                toast.success("Login Successfully");
-            }).catch((error) => {
-                toast.error('Problem with Google Auth')
-                console.log(error);
-
-            });
+        }
 
     }
 
