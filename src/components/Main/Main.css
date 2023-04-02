@@ -35,7 +35,7 @@
     flex-wrap: wrap;
 }
 
-@media (max-width:360px) {
+@media (max-width:480px) {
     .Main {
         display: flex;
         /* flex-direction: column; */

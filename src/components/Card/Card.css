@@ -3,7 +3,7 @@
     width: 23rem;
 }
 
-@media(max-width:360px) {
+@media(max-width:480px) {
     .card {
 
         margin-top: 10px;
