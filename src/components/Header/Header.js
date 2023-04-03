@@ -29,6 +29,7 @@ const Header = () => {
                     <h2 className='Company-Name'>
                         PRAMIT EDUCATION
                     </h2>
+                 <meta name="google-site-verification" content="Bym4n_5X9XOHlynlTeO8BVtQenHTIqIVfV_iwPAwY2M" />
 
                     {
                         auth.currentUser ? (<button className="btn signinbutton" onClick={logoutHandler}> Logout</button>) : (
